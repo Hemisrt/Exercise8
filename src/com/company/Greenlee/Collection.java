@@ -11,6 +11,9 @@ public class Collection {
     }
 
     public static void displayList() {
-        System.out.println(contactList);
+        System.out.println("List of Contacts: ");
+        for (Contact item: contactList) {
+            item.display();
+        }
     }
 }

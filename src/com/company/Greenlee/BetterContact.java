@@ -11,14 +11,16 @@ public class BetterContact extends Contact {
         this.phone = phone;
     }
 
-    // Using @Override since there are two display() methods for both classes.
-    // Each object from both different classes will have their information printed out.
-    // If an object from the Contact class calls the display() method, it will call for the method in the Contact class.
-    // If an object from the BetterContact class calls the display() method, it will call for the method in the BetterContact class.
-    // Using super.display() to call the display method from the Contact class.
-    @Override
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     public void display() {
         super.display();
-        System.out.println("Phone: " + phone);
+        System.out.println("Phone: " + getPhone());
     }
 }

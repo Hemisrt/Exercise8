@@ -11,8 +11,24 @@ public class Contact {
         this.email = email;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     // Display() method
     public void display() {
-        System.out.print("Name: " + name + ", Email: " + email + ", ");
+        System.out.print("\nName: " + getName() + ", Email: " + getEmail() + ", ");
     }
 }
