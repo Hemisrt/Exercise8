@@ -12,5 +12,6 @@ public class Main {
         Collection.addContact(trenton);
         Collection.addContact(trenton2);
         Collection.displayList();
+        System.out.println("");
     }
 }
