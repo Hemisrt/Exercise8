@@ -2,15 +2,15 @@ package com.company.Greenlee;
 
 public class BetterContact extends Contact {
     // Attributes
-    // Only creating the attribute phone because of BetterContact being an extension of the class Contact.
     private String phone;
 
-    // Using the super method to indicate the two Contact attributes are from the contact Class.
+    // Default Constructor
     BetterContact(String name, String email, String phone) {
         super(name, email);
         this.phone = phone;
     }
 
+    // Getters and Setters
     public String getPhone() {
         return phone;
     }
@@ -19,6 +19,7 @@ public class BetterContact extends Contact {
         this.phone = phone;
     }
 
+    // Display() Method
     public void display() {
         super.display();
         System.out.println("Phone: " + getPhone());

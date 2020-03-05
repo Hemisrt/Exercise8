@@ -3,7 +3,7 @@ package com.company.Greenlee;
 public class Main {
     // Trenton Greenlee
     // 2/23/2020
-    // Exercise 7
+    // Exercise 8
     // CSCI 1660 - Android Programming Fundamentals (Java)
     public static void main(String[] args) {
         // Creating two different objects from two different classes.

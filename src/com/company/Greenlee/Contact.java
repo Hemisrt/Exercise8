@@ -11,6 +11,7 @@ public class Contact {
         this.email = email;
     }
 
+    // Getters and Setters
     public String getName() {
         return name;
     }
@@ -27,7 +28,7 @@ public class Contact {
         this.email = email;
     }
 
-    // Display() method
+    // Display() Method
     public void display() {
         System.out.print("\nName: " + getName() + ", Email: " + getEmail() + ", ");
     }
